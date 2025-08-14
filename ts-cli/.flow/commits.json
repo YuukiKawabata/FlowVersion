@@ -1,0 +1,117 @@
+[
+  {
+    "id": "edtw3qhz",
+    "intention": "Initial TS commit",
+    "confidence": 0.9,
+    "timestamp": "2025-08-14T11:42:42.115Z"
+  },
+  {
+    "id": "v2856r3t",
+    "intention": "Add test file",
+    "confidence": 0.95,
+    "timestamp": "2025-08-14T13:10:18.806Z",
+    "snapshot": [
+      {
+        "path": "..\\src\\main.rs",
+        "intention": "Track main.rs",
+        "size": 2829,
+        "mtime": 1755155927302.38,
+        "addedAt": 1755171761945
+      },
+      {
+        "path": "test.txt",
+        "intention": "Track test",
+        "sha": "d461299cf950bd732857886dc0bb2730817e710b24812e896bd99e183e01e440",
+        "size": 8,
+        "mtime": 1755177018570.4385,
+        "addedAt": 1755177018683
+      }
+    ]
+  },
+  {
+    "id": "furn1w9y",
+    "intention": "Add foo",
+    "confidence": 1,
+    "timestamp": "2025-08-14T13:15:06.868Z",
+    "goal": "Introduce foo",
+    "context": "Demo",
+    "impact": "Low",
+    "snapshot": [
+      {
+        "path": "src/index.ts",
+        "intention": null,
+        "sha": "c0c955c1cb9e83d8b75131d37b10066dbdf6d3745d0b84ef3e474fe3370a7574",
+        "size": 11503,
+        "mtime": 1755177057173.1592,
+        "addedAt": 1755177216311
+      },
+      {
+        "path": "src/types/diff.d.ts",
+        "intention": null,
+        "sha": "6d89202febba2f1849a7485794ed00698787a162f14801ccb1b12c0805cc3b84",
+        "size": 262,
+        "mtime": 1755176865356.437,
+        "addedAt": 1755177216313
+      },
+      {
+        "path": "src/types/fast-glob.d.ts",
+        "intention": null,
+        "sha": "110a5c9f43f5b2e2e365b4c27a706267764e3ec7e74d6c05681eaf3c9a4d138f",
+        "size": 267,
+        "mtime": 1755177052985.3633,
+        "addedAt": 1755177216314
+      },
+      {
+        "path": "src/utils/hash.ts",
+        "intention": null,
+        "sha": "9a55e7c7b58beda9fdb09abb918af5d497c8391952156ce290fd5fc0e589549c",
+        "size": 440,
+        "mtime": 1755172213820.5183,
+        "addedAt": 1755177216316
+      },
+      {
+        "path": "src/utils/objectStore.ts",
+        "intention": null,
+        "sha": "e72a4921a4262eba07c2a16ca124977cee01647aa70548e999d067ccfb94d147",
+        "size": 925,
+        "mtime": 1755176731128.6812,
+        "addedAt": 1755177216317
+      },
+      {
+        "path": "src/utils/paths.ts",
+        "intention": null,
+        "sha": "37a1f7f5ff1668a828612b7561e03e70b06a2bd824679a7458b0956f07065edc",
+        "size": 611,
+        "mtime": 1755176731128.6812,
+        "addedAt": 1755177216319
+      },
+      {
+        "path": "foo.txt",
+        "intention": null,
+        "sha": "3bfc269594ef649228e9a74bab00f042efc91d5acc6fbee31a382e80d42388fe",
+        "size": 2,
+        "mtime": 1755177306456.293,
+        "addedAt": 1755177306657
+      }
+    ]
+  },
+  {
+    "id": "n3uq5lul",
+    "intention": "commit from fix",
+    "confidence": 0.8,
+    "timestamp": "2025-08-14T13:21:39.818Z",
+    "goal": "goal",
+    "context": "ctx",
+    "impact": "imp",
+    "snapshot": [
+      {
+        "path": "test.txt",
+        "intention": "test intention",
+        "sha": "d461299cf950bd732857886dc0bb2730817e710b24812e896bd99e183e01e440",
+        "size": 8,
+        "mtime": 1755177019611.6506,
+        "addedAt": 1755177699399
+      }
+    ]
+  }
+]

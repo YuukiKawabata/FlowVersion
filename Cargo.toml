@@ -1,0 +1,60 @@
+[package]
+name = "flowversion"
+version = "0.1.0"
+edition = "2021"
+authors = ["FlowVersion Team"]
+description = "Next-generation version control system with intent-based commits and AI assistance"
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/flowversion/flowversion"
+keywords = ["version-control", "git", "ai", "developer-tools"]
+categories = ["command-line-utilities", "development-tools"]
+
+[dependencies]
+# CLI and command handling
+clap = { version = "4.0", features = ["derive"] }
+anyhow = "1.0"
+thiserror = "1.0"
+
+# Async runtime
+tokio = { version = "1.0", features = ["full"] }
+
+# Serialization
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+uuid = { version = "1.0", features = ["v4", "serde"] }
+
+# Cryptography and hashing
+sha2 = "0.10"
+blake3 = "1.0"
+hex = "0.4"
+
+# File system operations
+walkdir = "2.0"
+ignore = "0.4"
+
+# Time handling
+chrono = { version = "0.4", features = ["serde"] }
+
+# HTTP client for AI APIs
+reqwest = { version = "0.11", features = ["json"] }
+
+# Logging
+tracing = "0.1"
+tracing-subscriber = { version = "0.3", features = ["env-filter"] }
+
+# Configuration
+config = "0.13"
+
+# Terminal UI (for future TUI)
+# crossterm = "0.27"
+# ratatui = "0.24"
+
+[dev-dependencies]
+tempfile = "3.0"
+mockall = "0.12"
+tokio-test = "0.4"
+
+[[bin]]
+name = "flow"
+path = "src/main.rs"

@@ -1,0 +1,10 @@
+[
+  {
+    "path": "test.txt",
+    "intention": "test intention",
+    "sha": "d461299cf950bd732857886dc0bb2730817e710b24812e896bd99e183e01e440",
+    "size": 8,
+    "mtime": 1755177019611.6506,
+    "addedAt": 1755177699399
+  }
+]
